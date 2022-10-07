@@ -1,0 +1,52 @@
+span {
+    color: red;
+}
+
+#loremp {
+    color: blueviolet;
+}
+
+.ipsum {
+    color: chocolate;
+}
+
+.title {
+    text-decoration: line-through;
+}
+
+.title-red {
+    color: red;
+}
+
+.title-small {
+    font-size: 10px;
+}
+
+.title-green {
+    color: green;
+}
+
+.title-big {
+    font-size: 30px;
+}
+
+.title-blue {
+    color: blue;
+}
+
+#cont p {
+    color: darkgoldenrod;
+}
+
+a[href="http://goole.com"] {
+    color: green;
+}
+
+.ul>li {
+    color: darkslateblue;
+}
+
+#titleh4 + h5 {
+    color: hotpink;
+}
+
