@@ -50,3 +50,10 @@ a[href="http://goole.com"] {
     color: hotpink;
 }
 
+/* * {
+    text-align: center;
+} */
+
+ul>li>p {
+    color: red;
+}
