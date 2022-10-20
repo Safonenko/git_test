@@ -26,13 +26,12 @@ html {
     box-sizing: inherit;
 }
 
-.header {
-    width: 1920px;
+.div_01 {
     height: 700px;
     background: #EEEFF1;
 }
 
-.nav {
+nav {
     margin-left: 399px;
 }
 
@@ -44,87 +43,64 @@ html {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     color: #34547A;
 }
 
 .menu li {
     display: inline-block;
+    margin-top: 79px;
+    padding-bottom: 151px;
 }
 
 h1 {
-    position: absolute;
-    width: 541px;
-    height: 45px;
-    left: 399px;
-    top: 257px;
+    margin-left: 399px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
     line-height: 79px;
+    color: #000000;
+    padding-bottom: 60px;
 }
 
 .lorem_01 {
-    position: absolute;
-    width: 540px;
-    height: 67px;
-    left: 400px;
-    top: 362px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #727272;
+    padding-bottom: 65px;
 }
 
-.write_link {
-    width: 225px;
-    height: 65px;
-    position: absolute;
-    width: 225px;
-    height: 65px;
-    left: 399px;
-    top: 494px;
+.lorem_01 p {
+    margin-left: 400px;
+    width: 540px;
+    height: 67px;
 }
 
 .write_me {
-    position: absolute;
-    width: 143px;
-    height: 26px;
-    left: 440px;
-    top: 513px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
+    margin-left: 399px;
 }
 
-.about {
-    position: absolute;
-    width: 403px;
-    height: 30px;
-    left: 758px;
-    top: 812px;
+.div_02 {
+    padding-bottom: 100px;
+}
+
+.about_me {
+    padding-top: 112px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 38px;
     text-align: center;
-    color: #000000;
+    padding-bottom: 50px;
 }
 
 .lorem_02 {
-    position: absolute;
-    width: 540px;
-    height: 67px;
-    left: 690px;
-    top: 892px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -134,28 +110,36 @@ h1 {
     color: #727272;
 }
 
-.numbers {
-    position: absolute;
-    width: 1920px;
-    height: 250px;
-    left: 0px;
-    top: 1059px;
+.lorem_02 p {
+    margin-left: 690px;
+    width: 540px;
+    height: 67px;
 }
 
-.img {
-    position: absolute;
-    width: 1920px;
+.projects {
+    height: 250px;
+    background: #34547A;
+}
+
+.proj_img {
+    margin-left: 409px;
+}
+
+.proj_img li {
+    display: inline-block;
+    margin-right: 45px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.div_03 {
     height: 1004px;
-    left: 0px;
-    top: 1309px;
+    background: #EEEFF1;
 }
 
 .work {
-    position: absolute;
-    width: 403px;
-    height: 30px;
-    left: 758px;
-    top: 1409px;
+    padding-top: 100px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -163,14 +147,10 @@ h1 {
     line-height: 38px;
     text-align: center;
     color: #000000;
+    padding-bottom: 50px;
 }
 
-.Lorem_02 {
-    position: absolute;
-    width: 540px;
-    height: 67px;
-    left: 690px;
-    top: 1489px;
+.lorem_03 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -178,20 +158,45 @@ h1 {
     line-height: 26px;
     text-align: center;
     color: #727272;
+    padding-bottom: 57px;
+}
+
+.lorem_03 p {
+    margin-left: 690px;
+    width: 540px;
+    height: 67px;
 }
 
 .video {
-    position: absolute;
+    margin-left: 405px;
     width: 1110px;
     height: 600px;
-    left: 405px;
-    top: 1613px;
+    padding-bottom: 100px;
 }
 
 .footer {
-    position: absolute;
-    width: 1920px;
     height: 151px;
-    left: 0px;
-    top: 2313px;
+    background: #34547A;
+}
+
+.john {
+    padding-top: 50px;
+    padding-left: 406px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    padding-bottom: 20px;
+    color: #FFFFFF
+}
+
+.foot {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    padding-left: 406px;
+    color: #FFFFFF;  
 }
