@@ -111,7 +111,7 @@ h1 {
 }
 
 .lorem_02 p {
-    margin-left: 690px;
+    margin: 0 auto;
     width: 540px;
     height: 67px;
 }
@@ -162,7 +162,7 @@ h1 {
 }
 
 .lorem_03 p {
-    margin-left: 690px;
+    margin: 0 auto;
     width: 540px;
     height: 67px;
 }
