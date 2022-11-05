@@ -55,11 +55,17 @@
 .ul_header>li {
     display: inline-block;
     padding: 17px 8px;
+    
+}
+
+.ul_header>li>a {
+    text-decoration: none;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16.41px;
+    color: #333333;
 }
 
 .header_2 {
@@ -68,6 +74,10 @@
     margin: 0 auto;
 }
 
+.logo_img {
+    float: left;
+    padding: 20px 0 20px;
+}
 
 .beauty {
     font-family: 'Roboto';
@@ -75,21 +85,27 @@
     line-height: 42.19px;
     color: #f13c6e;
     font-weight: 700;
+    float: left;
+    padding: 41px 0 40px 20px;
 }
 
 .call {
     float: right;
-    padding: 40px 0 0 0;
 }
 
 .tell {
     text-decoration: none;
-    padding: 0 40px 0;
     color: black;
     font-family: 'Roboto';
     font-weight: 400;
-    font-style: 16px;
+    font-size: 16px;
     line-height: 18.75px;
+    float: right;
+}
+
+.div_tell {
+    float: right;
+    padding: 50px 40px 50px 0;
 }
 
 .call_back_but {
@@ -103,6 +119,11 @@
     font-size: 14px;
     line-height: 16.41px;
     color: #000000;
+}
+
+.div_call_back {
+    float: right;
+    padding: 40px 0;
 }
 
 .ul_header3 {
@@ -147,7 +168,7 @@ h1 {
     height: 35px;
     font-family: 'Roboto';
     font-weight: 400;
-    font-style: 14px;
+    font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
     padding-top: 50px;
@@ -182,7 +203,7 @@ h1 {
 h2 {
     font-family: 'Roboto';
     font-weight: 700;
-    font-style: 24px;
+    font-size: 24px;
     line-height: 28.13px;
     padding-bottom: 38px;
 }
@@ -452,6 +473,98 @@ h3 {
     padding: 373px;
 }
 
+.div_list {
+    padding-bottom: 373px;
+}
 
+.div_hr {
+    padding: 47px 0 0;
+}
 
+.hr_last {
+    border: 1px solid #EFEFEF;
+}
 
+.links {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.links::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.class12 {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.div_youtoobe {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #F13C6E;
+    border-radius: 50px;
+}
+
+.div_facebook {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #F13C6E;
+    border-radius: 50px;
+}
+
+.div_instagram {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #F13C6E;
+    border-radius: 50px;
+}
+
+.link_menu {
+    float: left;
+    padding: 37px 0 38px;
+}
+
+.last_footer_div {
+    background: #EFEFEF;
+}
+
+.last_text {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.last_text::after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.fotter_text {
+    float: left;
+    padding: 25px 0;
+}
+
+.fotter_text_2 {
+    float: right;
+    padding: 25px 0;
+}
+
+.fotter_text_all {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
