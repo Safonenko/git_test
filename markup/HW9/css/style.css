@@ -29,19 +29,11 @@
   }  
   
 * {
-    /* margin: 0;
-    padding: 0; */
     box-sizing: border-box;
 }
 
-
 .shadow-text{
-    color: #f66d52; /* Цвет  текста */
-    /* font-size: 2em; Размер  текста
-    font-weight: bold;
-    padding: 20px 0px;
-    text-transform: uppercase;
-    line-height: 1; */
+    color: #f66d52;
     -webkit-transition: all 0.5s ease;
             transition: all 0.5s ease;
 }
@@ -66,8 +58,6 @@
     background: #E5E5E5;
 }
 
-
-
 .ul_header {
     width: 100%;
     list-style: none;
@@ -79,7 +69,6 @@
 .ul_header>li {
     display: inline-block;
     padding: 17px 8px;
-    
 }
 
 .ul_header>li>a {
@@ -126,8 +115,6 @@
     line-height: 18.75px;
     float: right;
 }
-
-
 
 .div_tell {
     float: right;
@@ -201,7 +188,6 @@ h1 {
 .content {
     display: inline-block;
     width: 308px;
-    height: 35px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
@@ -210,20 +196,22 @@ h1 {
     padding-top: 50px;
 }
 
-.button_more {
-    border: 2px solid #FFFFFF;
-    border-radius: 40px;
-    background: #F13C6E;
+.div_a_more_but {
     width: 170px;
     height: 40px;
+    padding-top: 50px;
+}
+
+.a_more_but {
     font-family: 'Roboto';
     font-size: 14px;
     line-height: 16.41px;
     color: #FFFFFF;
-}
-
-.more_but {
-    padding-top: 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    background: #F13C6E;
+    text-decoration: none;
+    padding: 9px 66px;
 }
 
 .special_offers {
@@ -301,7 +289,6 @@ h2 {
     background: #F13C6E;
     color: #FFFFFF;
 }
-
 
 .div_buy_but {
     padding: 20px 62px 25px 62px;
@@ -547,7 +534,6 @@ h3 {
     border-radius: 50px;
 }
 
-
 .div_facebook {
     display: table-cell;
     vertical-align: middle;
@@ -567,7 +553,6 @@ h3 {
     border: 2px solid #F13C6E;
     border-radius: 50px;
 }
-
 
 .link_menu {
     float: left;
