@@ -133,11 +133,12 @@
     color: #000000;
     background: linear-gradient(to left, #FBD3E9 , #F13C6E , #FBD3E9);
     background-size: 200%;
-    transition: .5s;
+    transition: 1s;
 }
 
 .call_back_but:hover {
     background-position: right;
+    transform: scale(1.2);
 }
 
 .div_call_back {
