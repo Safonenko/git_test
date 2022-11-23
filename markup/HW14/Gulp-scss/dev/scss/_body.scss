@@ -1,0 +1,32 @@
+.main-container {
+    background: $body;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Yellowtail';
+    font-size: 45px;
+    line-height: 58.5px;
+    color: $title_color;
+    text-align: center;
+    padding-top: 52px;
+}
+
+.product {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 58.5px;
+    color: $prod_color;
+    text-align: center;
+    padding-bottom: 42px;
+}
+
+.cards {
+    max-width: 1440px;
+    margin: 0 auto;
+}
