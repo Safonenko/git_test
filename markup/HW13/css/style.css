@@ -87,6 +87,10 @@ body {
     color: #000;
 }
 
+.navigation a:hover {
+    transform: scale(1.2);
+}
+
 .div_form_a {
     display: flex;
 }
@@ -102,6 +106,11 @@ body {
     font-family: 'Graphik LC TT';
     font-weight: 600;
     border: 1px solid #ccc;
+    transition: 1s;
+}
+
+.form:hover {
+    transform: scale(1.2);
 }
 
 .form_a {
@@ -113,6 +122,19 @@ body {
     font-size: 16px;
     line-height: 45px;
     margin-left: 10px;
+    transition: 1s;
+}
+
+.form_a:hover {
+    transform: scale(1.2);
+}
+
+.a-hover {
+    transition: 1s;
+}
+
+.a-hover:hover {
+    transform: scale(1.2);
 }
 
 .conteiner {
@@ -158,6 +180,11 @@ body {
     line-height: 60px;
     padding: 0px 40px;
     margin-right: 10px;
+    transition: 1s;
+}
+
+.Try_it_free:hover {
+    transform: scale(1.2);
 }
 
 .Try_it_color {
@@ -519,6 +546,11 @@ body {
 
 .a_8 {
     padding-bottom: 162px;
+    transition: 1s;
+}
+
+.a_8:hover {
+    transform: scale(1.2);
 }
 
 .a_8 a {
