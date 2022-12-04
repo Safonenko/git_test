@@ -50,6 +50,10 @@ body {
     padding: 25px 51px;
 }
 
+.div_header_ul {
+    width: 700px;
+}
+
 .div_header {
     max-width: 1440px;
     margin: 0 auto;
@@ -65,15 +69,22 @@ body {
 .ul_header {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
-.div_header_ul>ul>li a {
+.navigation {
+    width: 525px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation a {
     text-decoration: none;
+    font-family: 'Graphik LC TT';
     font-size: 15px;
     line-height: 20px;
     color: #000;
-    padding-right: 50px;
 }
 
 .div_form_a {
@@ -84,13 +95,13 @@ body {
     width: 120px;
     height: 45px;
     text-align: center;
-}
-
-input::placeholder {
-    font-weight: 600;
+    background: #fff;
+    color: #000;
     font-size: 16px;
     line-height: 45px;
-    color: #000;
+    font-family: 'Graphik LC TT';
+    font-weight: 600;
+    border: 1px solid #ccc;
 }
 
 .form_a {
@@ -205,12 +216,13 @@ input::placeholder {
     max-width: 1440px;
     margin: 0 auto;
     background: #fff;
+    padding-bottom: 150px;
 }
 
 .block_3 {
     display: flex;
     justify-content: space-between;
-    padding: 90px 75px 0;
+    padding: 250px 75px 0;
 }
 
 .control_title {
@@ -243,12 +255,6 @@ input::placeholder {
     padding-bottom: 30px;
 }
 
-.block_4 {
-    display: flex;
-    justify-content: space-between;
-    padding: 250px 75px 0;
-}
-
 .shorten_title {
     width: 380px;
     padding: 150px 0 30px;
@@ -259,12 +265,6 @@ input::placeholder {
     padding-bottom: 36px;
 }
 
-.block_5 {
-    display: flex;
-    justify-content: space-between;
-    padding: 250px 75px 0;
-}
-
 .ensure_title {
     padding: 160px 0 30px;
 }
@@ -272,12 +272,6 @@ input::placeholder {
 .span_ensure {
     width: 520px;
     padding-bottom: 35px;
-}
-
-.block_6 {
-    display: flex;
-    justify-content: space-between;
-    padding: 250px 75px 150px;
 }
 
 .less_title {
@@ -396,6 +390,12 @@ input::placeholder {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.img_3_1,
+.img_3_2,
+.img_3_3 {
+    height: 201px;
 }
 
 .title_3 {
@@ -648,6 +648,12 @@ input::placeholder {
 .footer_ul_flex {
     display: flex;
     justify-content: space-between;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 815px;
 }
 
 .last_block {
